@@ -2,7 +2,7 @@
 
 **MITRE ATT&CK:** [T1127.001 – Trusted Developer Utilities Proxy Execution: MSBuild](https://attack.mitre.org/techniques/T1127/001/)
 
-> Personal DFIR write-up of a real incident on my own workstation. Investigated, contained, and documented independently as part of my SOC analyst training. No live malware samples are included in this repo — only screenshots, VirusTotal links, and hashes.
+> Personal DFIR write-up of a real incident on my own workstation. Investigated, contained, and documented independently as part of my SOC analyst training. No live malware samples are included in this repo - only screenshots, VirusTotal links, and hashes.
 
 ## Executive summary
 
