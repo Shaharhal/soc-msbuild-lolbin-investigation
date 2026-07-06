@@ -147,6 +147,10 @@ After further investigation via `Win+R -> shell:startup`, a hidden startup file 
 - Delete any recurring instances of `FluentAssertions.csproj`, `FluentAssertions.csproj.user`, `Build.targets`, `Common.props`, and `indexer_f0c.cmd` from the user `Crypto` path when reachable on disk.
 - Perform a broader search on the host for additional copies of these filenames or similarly structured MSBuild projects under `AppData`, `ProgramData`, and temporary directories.
 
+**Remediation performed**
+- All potentially exposed credentials (Windows account, browser-saved passwords, and any stored session tokens) were rotated following containment.
+- Affected accounts were reviewed for unauthorized activity; no signs of misuse were identified.
+
 **Hardening**
 - Keep detailed process-creation logging with full command lines enabled to maintain visibility.
 - Consider deploying Sysmon with a hardened configuration focused on detecting developer-tool abuse, including MSBuild executions with atypical parents or project paths.
