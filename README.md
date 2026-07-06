@@ -116,7 +116,7 @@ After further investigation via `Win+R -> shell:startup`, a hidden startup file 
 
 ![Persistence via a hidden shell:startup entry](images/10-persistence-startup-folder.png)
 
-`indexer_f0cc.cmd` and `FluentAssertions.csproj.user` both appear to be crucial to the payload: `indexer_f0cc.cmd` appears to be responsible for launching/orchestrating the chain, while `FluentAssertions.csproj.user` is believed to hold the actual payload compiled and executed by MSBuild — though the exact division of responsibility between the two files was not conclusively confirmed during this investigation.
+`indexer_f0cc.cmd` and `FluentAssertions.csproj.user` both appear to be crucial to the payload: `indexer_f0cc.cmd` appears to be responsible for launching/orchestrating the chain, while `FluentAssertions.csproj.user` is believed to hold the actual payload compiled and executed by MSBuild - though the exact division of responsibility between the two files was not conclusively confirmed during this investigation.
 
 ### Indicators of Compromise (IOCs)
 
