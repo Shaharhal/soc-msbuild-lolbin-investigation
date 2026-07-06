@@ -16,11 +16,11 @@ Mapped against the MITRE ATT&CK Navigator, the incident spans Execution, Privile
 
 ![MITRE ATT&CK Navigator matrix of observed tactics and techniques](images/00-mitre-attack-navigator.png)
 
-- **Execution** — Command and Scripting Interpreter (T1059), Scripting (T1064), Shared Modules (T1129), Hijack Execution Flow (T1574)
-- **Privilege Escalation** — Process Injection (T1055)
-- **Defense Evasion / Stealth** — Process Injection (T1055), Scripting (T1064), Indirect Command Execution (T1202), Virtualization/Sandbox Evasion (T1497), Impair Defenses (T1562)
-- **Discovery** — System Owner/User Discovery (T1033), System Information Discovery (T1082), File and Directory Discovery (T1083), Virtualization/Sandbox Evasion (T1497)
-- **Command and Control** — Application Layer Protocol (T1071), Encrypted Channel (T1573)
+- **Execution** - Command and Scripting Interpreter (T1059), Scripting (T1064), Shared Modules (T1129), Hijack Execution Flow (T1574)
+- **Privilege Escalation** - Process Injection (T1055)
+- **Defense Evasion / Stealth** - Process Injection (T1055), Scripting (T1064), Indirect Command Execution (T1202), Virtualization/Sandbox Evasion (T1497), Impair Defenses (T1562)
+- **Discovery** - System Owner/User Discovery (T1033), System Information Discovery (T1082), File and Directory Discovery (T1083), Virtualization/Sandbox Evasion (T1497)
+- **Command and Control** - Application Layer Protocol (T1071), Encrypted Channel (T1573)
 
 ## Trigger and investigation start
 
